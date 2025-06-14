@@ -7,12 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1UsSJCTOuDF3vggEhUhxwmjCCKLimzttW
 """
 
-!pip install python-telegram-bot --upgrade
-
-!pip install nest_asyncio
-
-!pip install pandas
-
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import pandas as pd
